@@ -5,4 +5,4 @@ function filterNegativeNumbers(array) {
     return num > 0
     })
 }
-console.log(filterNegativeNumbers([-4,-5,-8,10,45,66,-90,-45,33]))
+console.log(filterNegativeNumbers([-4,-5,-8,10,45,66,-90,-45,35]))
