@@ -8,4 +8,5 @@ jobs:
      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
      - run: python pythonTasks\task1.py
      - run: python pythonTasks\task2.py
-     - run: node Task5.js
+     - run: node jsTasks\Task5.js
+     - run: node js_code_challenge_wasilat_tomiwa\codechallenge1.js
