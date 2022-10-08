@@ -57,7 +57,7 @@
 # Escape sequence
 
 article = "This is an article\na multiline article\n\tEach text.\b"
-print(article)
+#print(article)
 
 article = r"This is an article\na multiline article\n\tEach text.\b"
 
@@ -67,29 +67,54 @@ group = "wood"
 attr = "peckers"
 bird = group + attr
 
-print(bird)
+#print(bird)
 
 # conditional statements
 
 #if statement
-number = 5
-if number == 5:
-    print("Number is 5")
+#number = 5
+#if number == 5:
+    #print("Number is 5")
 
 #if_else
-if 5 == 1:
-    print("5 is equal to 1")
-else:
-    print("5 is not eual to 1")
+#if 5 == 1:
+    #print("5 is equal to 1")
+#else:
+    #print("5 is not eual to 1")
 
 #elif
-if number == 1:
-    print("5 == 1")
-elif number == 3:
-    print("5 == 3")
-elif number == 5:
-    print("Number is 5")    
-elif number == 6:
-    print("Number is 6")    
+#if number == 1:
+    #print("5 == 1")
+#elif number == 3:
+    #print("5 == 3")
+#elif number == 5:
+    #print("Number is 5")    
+#elif number == 6:
+    #print("Number is 6")    
 
 
+# functions
+
+print("functions\n")
+
+
+def greet():
+    print("Hello World from Python")
+
+
+def goodbye():
+    print("Thank you")
+    print("Goodbye")    
+
+def validate_username():
+    pass
+
+
+greet()
+goodbye()
+validate_username()
+
+
+hello = lambda: print("Hello World Anonymously")    
+hello()
+    

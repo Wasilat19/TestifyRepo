@@ -6,7 +6,11 @@ jobs:
    steps:
      - uses: actions/checkout@v2
      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
-     - run: python pythonTasks\task1.py
-     - run: python pythonTasks\task2.py
-     - run: node jsTasks\Task5.js
-     - run: node js_code_challenge_wasilat_tomiwa\codechallenge1.js
+     - run: python pythonTasks\task9.py
+     - run: python pythonTasks\task10.py
+     - run: python pythonTasks\task11.py
+     - run: python pythonTasks\task12.py
+     - run: python pythonTasks\task13.py
+     - run: python pythonTasks\task14.py
+     - run: python pythonTasks\task15.py
+     - run: python pythonTasks\task16.py
