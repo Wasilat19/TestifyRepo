@@ -1,7 +1,4 @@
 
-from cgi import print_arguments
-
-
 class Human:
 
     leg_count = 4
