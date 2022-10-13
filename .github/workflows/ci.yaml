@@ -9,4 +9,7 @@ jobs:
      - run: python pythonTasks\task17.py
      - run: python pythonTasks\task18.py
      - run: python pythonTasks\task19.py
-     
+     - run: python pythonTasks\task20.py
+     - run: python pythonTasks\task21.py
+     - run: python pythonTasks\task22.py
+     - run: python pythonTasks\task23.py
