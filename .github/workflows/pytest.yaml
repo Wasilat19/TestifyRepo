@@ -8,3 +8,5 @@ jobs:
      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
      - run: unit_testing\compare.py
      - run: unit_testing\test_compare_unittest.py
+     - run: selenium_python_tasks\task1.py
+     - run: selenium_python_tasks\task2.py
