@@ -1,0 +1,64 @@
+QUESTION 1
+What are the main features of python?
+1. Python code is easy to read and understand as it looks like simple english words.
+2. Python has an extensive standard library available for anyone to use. This means that programmers
+   don't have to write their code for every single thing.
+3. It is interpreted- this means that the source code is executed line by line and not all at once.
+4. Python supports both object-oriented and procedure-oriented programming.
+5. It is dynamically typed: this means that in python, the type of variable can be decided during runtime.
+6. White space is used to denote blocks in python unlike other languages that uses curly braces.
+
+QUESTION 2
+What is the difference between a list and a dictionary?
+ A list is a variable that can store multiple items. List items are created in a square bracket.
+ While a dictionary is a collection of key-value pair elements. They are created in a curly bracket.
+
+QUESTION 3
+In your own words, explain the keyword 'pass'
+ The keyword pass is used when you want to declare an empty function
+
+QUESTION 4
+What is an iterator in python?
+ An iterator ias an object that contains a countable number of values/elements that can be iterated upon.
+ This means that you can transverse through all the elements of a collection and return one element at a time.
+ Iterators are used in both for-loops and while loops.
+
+QUESTION 5
+What is unit testing?
+ Unit testing is a software development process in which the smallest part of an application is individually and
+ independently tested to ensure it satisfies their use case.
+
+QUESTION 6
+Of the available unit test framework in python, which is your favourite and why?
+ Pytest is my favourite. This is because it is simple, compact and efficient. We only have to define the testing
+ functions and assert th conditions inside them. We don't need to import any modules.
+
+QUESTION 7
+Name the types of arguments in python
+1. Required arguments
+2. Default arguments
+3. Keyword arguments
+4. Arbitrary arguments
+5. Arbitrary keyword arguments
+
+QUESTION 8
+Explain what functions are
+ Functions are reusable blocks of code that is executed when it is called or invoked from other parts of the
+ program. A function can be assigned a variable, passed another function parameter and stored in a collection.
+
+QUESTION 9
+How do you create a class in python?
+ A class in python is like an object constructor or a blueprint for creating objects that contains attributes
+ and methods.
+ To create a class, we use the keyword 'class':
+ For example, we can have a class Animal with attributes like name, group etc and methods can be fly(), walk() etc.
+
+QUESTION 10
+Explain what Polymorphism and Inheritance are in python OOP
+ Polymorphism in python OOP defines methods in the child class that have the same name as methods in the parent class
+ but can perform different actions.
+ This is mostly used in cases where the methods inherited from the parent class does not fit the child class.
+
+
+ Inheritance in OOP is the capability of one class(child class) to derive or inherit attributes and methods from
+ another class(parent class).

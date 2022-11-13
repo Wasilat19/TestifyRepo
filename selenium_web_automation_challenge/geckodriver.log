@@ -1,0 +1,100 @@
+1668200045712	geckodriver	INFO	Listening on 127.0.0.1:51375
+1668200048575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51376" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileMlaqld"
+1668200056806	Marionette	INFO	Marionette enabled
+1668200056831	Marionette	INFO	Listening on port 51390
+Read port: 
+1668200056864	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 51390
+WebDriver BiDi listening on ws://127.0.0.1:51376
+1668200057569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileMlaqld\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51376/devtools/browser/938c51b2-8884-4520-aca3-df79c38e3838
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668200205824	Marionette	INFO	Stopped listening on port 51390
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 2580, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668200352771	geckodriver	INFO	Listening on 127.0.0.1:51596
+1668200355775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileXmoHnS"
+1668200361297	Marionette	INFO	Marionette enabled
+1668200361319	Marionette	INFO	Listening on port 51613
+Read port: 51613
+WebDriver BiDi listening on ws://127.0.0.1:51597
+1668200364119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileXmoHnS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51597/devtools/browser/d9b8bf92-1a02-4dfc-9ef5-b03d3ff1172f
+1668200456648	Marionette	INFO	Stopped listening on port 51613
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1668200713635	geckodriver	INFO	Listening on 127.0.0.1:51833
+1668200716598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51834" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileAJKAtf"
+1668200720026	Marionette	INFO	Marionette enabled
+1668200720055	Marionette	INFO	Listening on port 51851
+Read port: 51851
+WebDriver BiDi listening on ws://127.0.0.1:51834
+1668200720615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileAJKAtf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51834/devtools/browser/e7fec74b-827c-4cb1-bd18-b8efea3bc73a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668203836367	Marionette	INFO	Stopped listening on port 51851
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 9352, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"PlacesShutdownProgress":5},"filename":"/builds/worker/checkouts/gecko/toolkit/components/places/Database.cpp","lineNumber":470,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","resource://gre/modules/XPCOMUtils.sys.mjs:XPCU_serviceLambda:156","resource://gre/modules/XPCOMUtils.sys.mjs:get:57","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1709","resource:///modules/BrowserGlue.jsm:BG_observe:946","chrome://browser/content/browser.js:_delayedStartup:2134"]}] Barrier: profile-before-change
+0)))
+DevTools listening on ws://127.0.0.1:52577/devtools/browser/68807370-2f1d-40e2-9aa2-79a827d8850c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668201965479	Marionette	INFO	Stopped listening on port 52586
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1668201966446	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 57"  data: no] Stack trace: allowAllCerts.disable()@cert.js:57
+destroy()@Session.jsm:206
+deleteSession()@WebDriverBiDi.jsm:148
+stop()@WebDriverBiDi.jsm:227
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 905: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1668202178640	geckodriver	INFO	Listening on 127.0.0.1:52638
+1668202181564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52639" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileX5Hbf1"
+1668202186526	Marionette	INFO	Marionette enabled
+1668202186554	Marionette	INFO	Listening on port 52649
+Read port: 52649
+WebDriver BiDi listening on ws://127.0.0.1:52639
+1668202187169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileX5Hbf1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52639/devtools/browser/47b7216d-7395-43e0-b659-810adde29740
+1668202239477	Marionette	INFO	Stopped listening on port 52649
+[Parent 3264, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 3264, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668202336605	geckodriver	INFO	Listening on 127.0.0.1:52706
+1668202339837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileCPB573"
+1668202342623	Marionette	INFO	Marionette enabled
+1668202342648	Marionette	INFO	Listening on port 52716
+Read port: 52716
+WebDriver BiDi listening on ws://127.0.0.1:52707
+1668202343264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileCPB573\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52707/devtools/browser/1209a90d-21f8-4dfb-86b7-d94901425e6e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668203796685	Marionette	INFO	Stopped listening on port 52716
+[Parent 9628, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668291064727	geckodriver	INFO	Listening on 127.0.0.1:57097
+1668291068542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57098" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileoRTnBH"
+1668291083125	Marionette	INFO	Marionette enabled
+1668291083208	Marionette	INFO	Listening on port 57120
+Read port: 57120
+Read port: 57120
+WebDriver BiDi listening on ws://127.0.0.1:57098
+1668291085736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofileoRTnBH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57098/devtools/browser/47b35deb-e45c-45b8-870e-150af3ffcf32
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668291321659	Marionette	INFO	Stopped listening on port 57120
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function

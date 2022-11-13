@@ -45,3 +45,19 @@ DevTools listening on ws://127.0.0.1:65147/devtools/browser/4cfd3c1f-d7d6-4fe6-8
 1666930223463	Marionette	INFO	Stopped listening on port 65156
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 !!! error running onStopped callback: TypeError: callback is not a function
+1668199838931	geckodriver	INFO	Listening on 127.0.0.1:51204
+1668199842032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51205" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofile9uDwM8"
+1668199854524	Marionette	INFO	Marionette enabled
+1668199854611	Marionette	INFO	Listening on port 51229
+Read port: 51229
+Read port: 51229
+WebDriver BiDi listening on ws://127.0.0.1:51205
+Read port: 51229
+1668199858150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SAMSUNG\\AppData\\Local\\Temp\\rust_mozprofile9uDwM8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51205/devtools/browser/628be9f7-c919-4865-b406-8a0c134df953
+1668199947274	Marionette	INFO	Stopped listening on port 51229
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 5544, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
