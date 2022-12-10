@@ -4,4 +4,5 @@ class Utilities:
     def print_name(name):
         return name
 
-print(Utilities.print_name("Angel"))        
+
+print(Utilities.print_name("Angel"))
