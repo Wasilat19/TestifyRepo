@@ -18,7 +18,7 @@ public class Widgets {
 
     @BeforeTest
     public  void start() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\odunuga\\kehinde-testify\\SeleniumWeb\\src\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\wasilat\\wasilat-testify\\SeleniumWeb\\src\\chromedriver.exe");
 
         //Launch browser
         driver = new ChromeDriver();
